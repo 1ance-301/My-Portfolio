@@ -1,10 +1,60 @@
+:root {
+    --primary-color: #333333;
+    --secondary-color: #8f0000;
+    --tertiary-color: #4d4d4d;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--tertiary-color);
+}
+
 /* header styles */
+header {
+    background-size: cover;
+    background-position: 100%;
+    padding: 20px 35px 20px 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 0 10px 0 70px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header ul li a {
+    color: var(--secondary-color);
+    font-size: 27px;
+    padding: 10px 75px;
+}
 /* header styles end */
 
 /* hero styles */
