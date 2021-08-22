@@ -82,8 +82,122 @@ header ul li a {
 }
 /* hero styles end */
 
+/* section titles styles */
+.section-title {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 15%;
+    text-align: right;
+    font-weight: bold;
+    color: var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);
+}
+/* section titles styles end */
+
+/* about-me section styles */
+.intro {
+    color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.intro p {
+    margin: 0px;
+    font-style: normal;
+    font-size: 21px;
+    align-content: flex-start;
+}
+/* about-me section styles end */
+
 /* my-work section styles */
+#my-work {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 20px 0;
+}
+
+.projects {
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 5px solid var(--secondary-color);
+}
+
+.project-name {
+    padding: 0 10px;
+    height: 75px;
+    width: 200px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.project-name h3 {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.project-name p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#main-project {
+    background-image: url(../Images/run-buddy-pic.jpeg);
+    width: 90%;
+    height: 600px;
+}
+
+#main-project .project-name {
+    margin-top: 450px;
+}
+
+#horiseon-project {
+    background-image: url(../Images/horiseon-pic.jpeg);
+    height: 300px;
+    width: 42%;
+}
+
+#horiseon-project .project-name {
+    margin-top: 200px;
+}
+
+#robot-gladiators-project {
+    background-image: url(../Images/robot-gladiators-pic.jpeg);
+    height: 300px;
+    width: 42%;
+}
+
+#robot-gladiators-project .project-name {
+    margin-top: 200px;
+    width: 300px;
+}
 /* my-work section styles end */
 
 /* contact-me section styles */
+.contact {
+    display: flex;
+}
+
+.contact address {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+    align-content: flex-start;
+}
 /* contact-me section styles end */
