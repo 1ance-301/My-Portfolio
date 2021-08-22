@@ -58,6 +58,28 @@ header ul li a {
 /* header styles end */
 
 /* hero styles */
+.hero {
+    background-image: url("../Images/profile-pic.jpeg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: relative;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.hero h2 {
+    margin: 3.5%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 31px;
+}
 /* hero styles end */
 
 /* my-work section styles */
