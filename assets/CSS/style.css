@@ -105,9 +105,11 @@ header ul li a {
 
 .intro p {
     margin: 0px;
+    padding: 10px;
+    width: 70%;
     font-style: normal;
     font-size: 21px;
-    align-content: flex-start;
+    display: flex;
 }
 /* about-me section styles end */
 
@@ -146,7 +148,8 @@ header ul li a {
     color: var(--secondary-color);
 }
 
-.project-name h3 {
+.project-name a {
+    color: var(--secondary-color);
     font-size: 31px;
     font-weight: bold;
 }
@@ -186,6 +189,10 @@ header ul li a {
     margin-top: 200px;
     width: 300px;
 }
+
+.projects:hover {
+    opacity: .3;
+}
 /* my-work section styles end */
 
 /* contact-me section styles */
@@ -201,3 +208,38 @@ header ul li a {
     align-content: flex-start;
 }
 /* contact-me section styles end */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header ul li a {
+        padding: 10px;
+    }
+
+    .projects {
+        background-size: contain;
+    }
+
+    #main-project {
+        height: 350px;
+    }
+    
+    #main-project .project-name {
+        margin-top: 250px;
+    }
+    
+    #horiseon-project,
+    #robot-gladiators-project {
+        height: 175px;
+    }
+    
+    #horiseon-project .project-name,
+    #robot-gladiators-project .project-name {
+        margin-top: 85px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {}
