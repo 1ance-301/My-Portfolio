@@ -185,13 +185,27 @@ header ul li a {
     width: 42%;
 }
 
-#robot-gladiators-project .project-name {
+#robot-gladiators-project .project-name,
+#weather-dashboard-project .project-name,
+#where2watch-project .project-name {
     margin-top: 200px;
     width: 300px;
 }
 
 .projects:hover {
     opacity: .3;
+}
+
+#weather-dashboard-project {
+    background-image: url(../Images/weather-dashboard.png);
+    height: 300px;
+    width: 42%;
+}
+
+#where2watch-project {
+    background-image: url(../Images/where2watch.png);
+    height: 300px;
+    width: 42%;
 }
 /* my-work section styles end */
 
