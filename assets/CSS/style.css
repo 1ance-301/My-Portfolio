@@ -207,6 +207,18 @@ header ul li a {
     height: 300px;
     width: 42%;
 }
+
+#recipe-rendezvous {
+    background-image: url(../Images/Recipe-Rendezvous.png);
+    height: 300px;
+    width: 42%;
+}
+
+#recipe-rendezvous .project-name {
+    margin-top: 175px;
+    width: 300px;
+    height: 100px;
+}
 /* my-work section styles end */
 
 /* contact-me section styles */
